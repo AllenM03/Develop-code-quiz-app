@@ -1,0 +1,61 @@
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }*/
+
+* {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+header {
+    flex-basis: 100px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scores { 
+    padding: 5px 0 0 10px;
+    color: #ba55d3;
+}
+
+.time-counter {
+    padding: 5px 10px 0 5px;
+    text-align: right;
+}
+
+.start-page, p  {
+    text-align: center;
+    padding: 0px auto;
+    display: block;
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: 10px auto;
+}
+ 
+
+h1 {
+  text-align: center;
+  padding:  75px 75px 5px 75px;
+  color: #000;
+}
+
+.btn, .start-quiz {
+    border: none;
+    text-align: right;
+    cursor: default;
+    background-color: #14147c;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 14px;
+}
+
+.button-footer {
+    text-align: center;
+}
+
+/* MQ-768px MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px)
+
